@@ -1,0 +1,27 @@
+[package]
+name = "rdash"
+version = "0.1.0-alpha.1"
+author = ["Ajay"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/underscoore/r-dash"
+documentation = ""
+homepage = ""
+description = """
+
+"""
+keywords = ["rdash", "r-dash"]
+categories = ["algorithms"]
+autobenches = true
+edition = "2021"
+rust-version = "1.77"
+include = ["src/", "LICENSE*", "README.md", "SECUTIRY",]
+
+[dependencies]
+
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
